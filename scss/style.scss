@@ -1,1 +1,43 @@
 @import "normalize";
+
+header {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 100%;
+	background: black;
+	z-index: 10;
+}
+
+section {
+	color: white;
+	margin: 0 auto 40px;
+	width: 100%;
+	position: relative;
+}
+
+article {
+	position: absolute;
+  top: 150px;
+  width: 100%;
+}
+
+h2 {
+	font-size: 4em;
+	text-shadow: 2px 2px 2px black;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.3em;
+}
+
+.agency {
+	background: url('../images/feet.jpeg') 50% 0 repeat fixed;
+	min-height: 1000px;
+}
+
+.work {
+	background: url('../images/books2.jpeg') 50% 0 repeat fixed;
+	min-height: 1000px;
+}
