@@ -1,29 +1,70 @@
+@import "compass";
 @import "normalize";
+@import "grid";
+
+a {
+	text-decoration: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+
+header, footer {
+	padding: 0 10%;
+}
 
 header {
 	position: fixed;
 	top: 0;
-	height: 50px;
+	height: 4em;
+	padding-top: .7em;
 	width: 100%;
 	background: black;
 	z-index: 10;
 }
 
+.logo {
+	float: left;
+	width: 5.5em;
+}
+
+.main-nav {
+	margin-top: 1.4em;
+	float: right;
+	text-transform: uppercase;
+}
+
+.main-nav a {
+	padding-left: .7em;
+	font-size: .8em;
+	color: white;
+}
+
 section {
 	color: white;
-	margin: 0 auto 40px;
+	margin: 0 auto;
 	width: 100%;
+	padding: 8em 10%;
 	position: relative;
+	float: left;
+}
+
+section p {
+	font-size: 1.35em;
+	line-height: 1.7em;
 }
 
 article {
-	position: absolute;
-  top: 150px;
-  width: 100%;
+  
 }
 
 h2 {
 	font-size: 4em;
+	-webkit-margin-after: 0em;
+	margin-bottom: 0;
 	text-shadow: 2px 2px 2px black;
 }
 
@@ -33,11 +74,16 @@ p {
 }
 
 .agency {
-	background: url('../images/feet.jpeg') 50% 0 repeat fixed;
-	min-height: 1000px;
+	background: url('../images/blueblur.jpg') 50% 0 repeat fixed;
 }
 
 .work {
 	background: url('../images/books2.jpeg') 50% 0 repeat fixed;
 	min-height: 1000px;
+}
+
+.circle {
+	width: 14em;
+	margin: auto;
+	display: block;
 }
