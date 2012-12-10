@@ -154,4 +154,6 @@ p { font-size: 1em; line-height: 1.3em; }
 
 .work { background: url("../images/books2.jpeg") 50% 0 repeat fixed; min-height: 1000px; }
 
-.circle { width: 14em; margin: auto; display: block; }
+.circle { width: 14em; margin: auto; display: block; -ms-transform: rotate(0deg); /* IE 9 */ -moz-transform: rotate(0deg); /* Firefox */ -webkit-transform: rotate(0deg); /* Safari and Chrome */ -o-transform: rotate(0deg); /* Opera */ -moz-transition: all .7s ease; -webkit-transition: all .7s ease; -o-transition: all .7s ease; transition: all .7s ease; }
+
+.circle:hover { transform: rotate(15deg); -ms-transform: rotate(15deg); /* IE 9 */ -moz-transform: rotate(15deg); /* Firefox */ -webkit-transform: rotate(15deg); /* Safari and Chrome */ -o-transform: rotate(15deg); /* Opera */ }
