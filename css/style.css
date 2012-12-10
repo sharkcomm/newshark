@@ -142,17 +142,17 @@ header { position: fixed; top: 0; height: 4em; padding-top: .7em; width: 100%; b
 
 .main-nav a { padding-left: .7em; font-size: .8em; color: white; }
 
-section { color: white; margin: 0 auto; width: 100%; padding: 8em 10%; position: relative; float: left; }
+section { color: white; margin: 0 auto; width: 100%; padding: 8em 10%; position: relative; float: left; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-section p { font-size: 1.35em; line-height: 1.7em; }
+section p { font-size: 1.15em; line-height: 1.7em; }
 
 h2 { font-size: 4em; -webkit-margin-after: 0em; margin-bottom: 0; text-shadow: 2px 2px 2px black; }
 
 p { font-size: 1em; line-height: 1.3em; }
 
-.agency { background: url("../images/blueblur.jpg") 50% 0 repeat fixed; }
+.agency { background: url("../images/blueblur.jpg") no-repeat center center fixed; }
 
-.work { background: url("../images/books2.jpeg") 50% 0 repeat fixed; min-height: 1000px; }
+.work { background: url("../images/books2.jpeg") no-repeat center center fixed; min-height: 1000px; }
 
 .circle { width: 14em; margin: auto; display: block; -ms-transform: rotate(0deg); /* IE 9 */ -moz-transform: rotate(0deg); /* Firefox */ -webkit-transform: rotate(0deg); /* Safari and Chrome */ -o-transform: rotate(0deg); /* Opera */ -moz-transition: all .7s ease; -webkit-transition: all .7s ease; -o-transition: all .7s ease; transition: all .7s ease; }
 

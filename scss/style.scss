@@ -50,10 +50,14 @@ section {
 	padding: 8em 10%;
 	position: relative;
 	float: left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 section p {
-	font-size: 1.35em;
+	font-size: 1.15em;
 	line-height: 1.7em;
 }
 
@@ -74,11 +78,11 @@ p {
 }
 
 .agency {
-	background: url('../images/blueblur.jpg') 50% 0 repeat fixed;
+	background: url('../images/blueblur.jpg') no-repeat center center fixed; 
 }
 
 .work {
-	background: url('../images/books2.jpeg') 50% 0 repeat fixed;
+	background: url('../images/books2.jpeg') no-repeat center center fixed; 
 	min-height: 1000px;
 }
 
