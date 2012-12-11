@@ -138,11 +138,13 @@ header { position: fixed; top: 0; height: 4em; padding-top: .7em; width: 100%; b
 
 .logo { float: left; width: 5.5em; }
 
-.main-nav { margin-top: 1.4em; float: right; text-transform: uppercase; }
+.main-nav { margin-top: .8em; float: right; text-transform: uppercase; }
 
 .main-nav a { padding-left: .7em; font-size: .8em; color: white; }
 
-section { color: white; margin: 0 auto; width: 100%; padding: 8em 10%; position: relative; float: left; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.main-nav .current { color: #338DE1; font-weight: bold; }
+
+section { color: white; margin: 0 auto; width: 100%; padding: 8em 10%; position: relative; float: left; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; border-bottom: 35px solid white; }
 
 section p { font-size: 1.15em; line-height: 1.7em; }
 
@@ -155,5 +157,3 @@ p { font-size: 1em; line-height: 1.3em; }
 .work { background: url("../images/books2.jpeg") no-repeat center center fixed; min-height: 1000px; }
 
 .circle { width: 14em; margin: auto; display: block; -ms-transform: rotate(0deg); /* IE 9 */ -moz-transform: rotate(0deg); /* Firefox */ -webkit-transform: rotate(0deg); /* Safari and Chrome */ -o-transform: rotate(0deg); /* Opera */ -moz-transition: all .7s ease; -webkit-transition: all .7s ease; -o-transition: all .7s ease; transition: all .7s ease; }
-
-.circle:hover { transform: rotate(15deg); -ms-transform: rotate(15deg); /* IE 9 */ -moz-transform: rotate(15deg); /* Firefox */ -webkit-transform: rotate(15deg); /* Safari and Chrome */ -o-transform: rotate(15deg); /* Opera */ }
