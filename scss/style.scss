@@ -45,7 +45,11 @@ header {
 
 section {
 	color: white;
+<<<<<<< HEAD
 	margin: 0 auto;
+=======
+	margin: 0 auto 100px;
+>>>>>>> worked on it
 	width: 100%;
 	padding: 8em 10%;
 	position: relative;
@@ -58,7 +62,15 @@ section p {
 }
 
 article {
+<<<<<<< HEAD
   
+=======
+	position: absolute;
+  top: 150px;
+  width: 60%;
+  margin: auto;
+  text-align: left;
+>>>>>>> worked on it
 }
 
 h2 {
@@ -74,7 +86,17 @@ p {
 }
 
 .agency {
+<<<<<<< HEAD
 	background: url('../images/blueblur.jpg') 50% 0 repeat fixed;
+=======
+//	background: url('../images/feet.jpeg') 50% 0 repeat fixed;
+	background: url('../images/feet.jpeg') no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	min-height: 1000px;
+>>>>>>> worked on it
 }
 
 .work {
